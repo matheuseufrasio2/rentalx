@@ -6,6 +6,11 @@
     "module": "commonjs",
     "rootDir": "./",
     "baseUrl": "./src",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "paths": {
       "@modules/*": [
         "modules/*"
@@ -19,11 +24,6 @@
       "@utils/*": [
         "utils/*"
       ]
-    },
-    "resolveJsonModule": true,
-    "outDir": "./dist",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    }
   }
 }
